@@ -1,0 +1,138 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+    max-width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+}
+.main-header {
+    height: 111px;
+}
+.header-flex-wrap {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list li {
+    list-style: none;
+    display: inline-block;
+
+}
+.nav-list a {
+    color: #111111;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    text-transform: uppercase;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.inroduction-section {
+    background: url("../images/lawyer-phon.png") no-repeat center;
+    background-size: auto 100%;
+    height: calc(100vh - 111px);
+    position: relative;
+}
+
+.inroduction-section::before {
+    top: 20px;
+    display: block;
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../images/slice-4.png") center;
+    background-repeat: repeat-x;
+    opacity: 0.8;
+}
+
+.intro-flex-wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-adam {
+    width: 480px;
+    height: 94px ;
+    margin: 635px 0 140px 0;
+    padding-left: 100px;
+    position: relative;
+}
+.info-adam::before {
+    content: " ";
+    display: inline-block;
+    width: 3px;
+    height: 82px;
+    left: 85px;
+    position: absolute;
+    background-color: #e8bf5d;
+}
+.info-adam h1 {
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 65px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 45px;
+}
+.info-adam h2 {
+    font-size: 31px;
+    letter-spacing: 1.24px;
+    line-height: 48px;
+    color: #ffffff;
+}
+.contact-button {
+    position: relative;
+    width: 184px;
+    height: 53px;
+    border-radius: 25px;
+    background-color: #e8bf5d;
+    margin: 500px 90px 0 0;
+}
+.header-style p {
+    width: 762px;
+    height: 51px;
+    color: #666666;
+    font-family: "Playfair Display" , sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.89px;
+    letter-spacing: 0.64px;
+    padding-left:  19px;
+}
+.header-style h2 {
+    font-family: "Playfair Display" , sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 44.84px;
+    letter-spacing: 1.24px;
+    padding: 15px  0  10px 21px;
+}
+.header-style {
+    margin-top: 100px;
+    counter-reset: select 0;
+    z-index: 12;
+    border-left: 3px solid #e8bf5d;
+}
+.about-header h2 {
+    color: #111111;
+}
+.header-style::before {
+    margin-right: 10px;
+    z-index: 1;
+    display: block;
+    counter-increment: select 1;
+    content: " " counter(select, decimal-leading-zero);
+    width: 178px;
+    height: 144px;
+    color: #f3f3f3;
+    font-family: "Open Sans" , sans-serif;
+    font-size: 195px;
+    font-weight: 400;
+    line-height: 430.9px;
+    letter-spacing: 0.56px;
+}
+
