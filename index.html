@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ADVOCATUS</title>
+    <title>Advocatus</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale="1.0"  >
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <header class="main-header">
@@ -16,12 +18,12 @@
         <img src="images/logo.png" alt="Logo">
         <nav class="main-navigation">
             <ul class="nav-list">
-                <li><a href="#">About us</a></li>
-                <li><a href="">Practice Area</a></li>
-                <li><a href="">Lawyers</a></li>
-                <li><a href="">Publications</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#about-us">About us</a></li>
+                <li><a href="#practice-area">Practice Area</a></li>
+                <li><a href="#lawyers">Lawyers</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         </div>
@@ -29,24 +31,238 @@
 </header>
 <section class="inroduction-section">
     <div class="wrapper">
-        <div class="intro-flex-wrapp">
-            <div class="info-adam">
-            <h1>Adam Suaerez</h1>
-            <h2>Lawyer</h2>
-            </div>
+        <div class="welcome-info">
+            <div class="intro-flex-wrapp">
+                <div class="info-adam">
+                    <h1>Adam Suaerez</h1>
+                    <h2>Lawyer</h2>
+                </div>
             <button class="contact-button">
                 <span>Contact me</span>
             </button>
+            </div>
         </div>
     </div>
 </section>
-<section class="about-us">
+<section id="about-us" class="about-us">
     <div class="wrapper">
         <header class="header-style about-header">
             <h2>About us</h2>
             <p>We are regarded as industry leaders in stunning website solutions, focused on delivering unsurpassed user experiences.</p>
+            <span></span>
         </header>
+
+        <div class="detail-info">
+            <div class="history">
+                <h3>History</h3>
+                <dl>
+                    <dt class="first-termin">2016 -</dt>
+                    <dd class="first-termin">In hac habitasse platea dictumst Nunc ultricies iaculis luctus Aliquam eget eros eget sapien dictum.</dd>
+                    <dt class="second-termin">2015 -</dt>
+                    <dd class="second-termin">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</dd>
+                    <dt>2014 -</dt>
+                    <dd>In hac habitasse platea dictumst Nunc ultricies iaculis luctus Aliquam eget eros eget sapien.</dd>
+                </dl>
+            </div>
+            <div class="expertise">
+                <h3>Expertise</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt..</p>
+            </div>
+        </div>
     </div>
 </section>
+<section id="practice-area" class="practis-section">
+    <div class="wrapper">
+        <header class="header-style practis-header">
+            <h2>Practis Area</h2>
+            <p>We are regarded as industry leaders in stunning website solutions, focused on delivering unsurpassed user experiences.</p>
+            <span></span>
+        </header>
+        <ul class="skill-list">
+            <li class="service-skill style-skill-list">
+                <h2>Private Client Service</h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.</p>
+            </li>
+            <li class="labour-skill style-skill-list">
+                <h2>LABOUR AND EMPLOYMENT</h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.</p>
+            </li>
+            <li class="cyber-skill style-skill-list">
+                <h2>Cyber Sequre</h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.</p>
+            </li>
+            <li class="estate-skill style-skill-list">
+                <h2>Real Estate</h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<section id="lawyers" class="team-attorney">
+    <div class="wrapper">
+        <header class="header-style team-header">
+            <h2>Meet Our Attorney</h2>
+            <p>We are regarded as industry leaders in stunning website solutions, focused on delivering unsurpassed user experiences.</p>
+            <span></span>
+        </header>
+        <ul class="team-list">
+            <li>
+                <img src="images/adam.png" alt="Adam Suarez">
+                <h2>Adam Suarez</h2>
+                <h3>Attorney General</h3>
+            </li>
+            <li>
+                <img src="images/lina.png" alt="Lina Suarez">
+                <h2>Lina Suarez </h2>
+                <h3>Attorney General</h3>
+            </li>
+            <li>
+                <img src="images/jems.png" alt="Jems Snow">
+                <h2>Jems Snow</h2>
+                <h3>Attorney General</h3>
+            </li>
+            <li>
+                <img src="images/linister.png" alt="Linister White">
+                <h2>Linister White</h2>
+                <h3>Attorney General</h3>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="our-client">
+    <div class="wrapper">
+        <header class="header-style client-header">
+            <h2>Our Client Says</h2>
+            <p>We are regarded as industry leaders in stunning website solutions, focused on delivering unsurpassed user experiences.</p>
+            <span></span>
+        </header>
+        <div class="client-quote">
+        <img src="images/client-photo.png" alt="Client" class="client">
+         <blockquote>
+             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt. </p>
+             <footer>
+                     <h2>Alone Smith</h2>
+                     <h3>CEO of AVC Group</h3>
+             </footer>
+         </blockquote>
+        </div>
+    </div>
+</section>
+<section  id="publications" class="publication-section">
+    <div class="wrapper">
+        <header class="header-style publication-header">
+            <h2>Recent Publications</h2>
+            <p>We are regarded as industry leaders in stunning website solutions, focused on delivering unsurpassed user experiences.</p>
+            <span></span>
+        </header>
+        <ul class="article-list">
+            <li>
+                <article>
+                    <img src="images/article-1.png" alt="Article-1" />
+                    <header>
+                        <h2>Publication Tite</h2>
+                        <h3>Adam Suarez</h3>
+                        <p>
+                            <time datetime="2015-11-12">12 Nov, 2015</time>
+                        </p>
+                    </header>
+                    <p class="article-content">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                    <footer class="article-footer">
+                        <p class="comments">29 Comments</p>
+                        <p class="share">Share</p>
+                    </footer>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <img src="images/article-2.png" alt="Article-2" />
+                    <header>
+                        <h2>Publication Tite</h2>
+                        <h3>Adam Suarez</h3>
+                        <p>
+                            <time datetime="2015-11-12">12 Nov, 2015</time>
+                        </p>
+                    </header>
+                    <p class="article-content">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                    <footer class="article-footer">
+                        <p class="comments">29 Comments</p>
+                        <p class="share">Share</p>
+                    </footer>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <img src="images/article-3.png" alt="Article-3" />
+                    <header>
+                        <h2>Publication Tite</h2>
+                        <h3>Adam Suarez</h3>
+                        <p>
+                            <time datetime="2015-11-12">12 Nov, 2015</time>
+                        </p>
+                    </header>
+                    <p class="article-content">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                    </p>
+                    <footer class="article-footer">
+                        <p class="comments">29 Comments</p>
+                        <p class="share">Share</p>
+                    </footer>
+                </article>
+            </li>
+        </ul>
+    </div>
+</section>
+<section id="faq" class="faq-section">
+    <div class="wrapper">
+        <header class="header-style faq-header">
+            <h2>Frequently asked question</h2>
+            <p>We are regarded as industry leaders in stunning website solutions, focused on delivering unsurpassed user experiences.</p>
+            <span></span>
+        </header>
+        <div class="answer-for-question">
+            <p>Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact-section">
+    <div class="wrapper">
+        <header class="header-style publication-header">
+            <h2>Feel Free to Contact</h2>
+            <p>We are regarded as industry leaders in stunning website solutions, focused on delivering unsurpassed user experiences.</p>
+            <span></span>
+        </header>
+        <div class="contact-wrap">
+            <form action="index.html" class="contact-form">
+                <input  type="text" name=name placeholder="Enter your name...">
+                <input type="email" name="email-address" placeholder="Enter your email...">
+                <input type="tel" name="phone" placeholder="Enter your phone..." maxlength="13">
+                <textarea placeholder="Enter your massage..." name="massage"  rows="5"></textarea>
+                <input type="submit" class="submit-button" value="Send Message">
+            </form>
+            <div id="map" class="google-maps"></div>
+        </div>
+    </div>
+</section>
+<footer class="main-footer">
+    <div class="wrapper">
+        <div class="flex-footer">
+    <p>Copyright © <a href="https://symu.co/">Symu.co</a></p>
+        <ul class="sn-list">
+            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://plus.google.com/"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="js/scroll.js"></script>
+<script src="js/maps.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVTKe-3QV06XhzVOeBTfxs-bd1BKrPLHQ&callback=myMap"></script>
 </body>
 </html>
